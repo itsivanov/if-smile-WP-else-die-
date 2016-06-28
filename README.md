@@ -1,4 +1,5 @@
-﻿# if(smile){
-﻿#WP
-﻿#}else{die
-.#}
+#if(smile){<br>
+#WP<br>
+#}else{<br>
+#die<br>
+#}
