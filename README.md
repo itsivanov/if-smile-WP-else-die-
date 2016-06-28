@@ -1,5 +1,5 @@
 #if(smile){<br>
-#echo 'WordPressP';<br>
+#echo 'WordPress';<br>
 #}else{<br>
 #die;<br>
 #}
