@@ -1,0 +1,65 @@
+<style type="text/css">
+    table{
+        border: 1px solid #999;
+        margin-top: 20px;
+    }
+    td{
+        padding: 5px 10px;
+    }
+    table tr:first-child{
+        background: #0073AA;
+        color: #fff;
+    }
+    table.padding-2 tr td{
+            padding: 5px 2px;
+    }
+    td.action{
+        width: 250px;
+    }
+	td{
+        text-align: center;
+    }
+	input[type="file"]{
+		width: 175px;
+	}
+	table.table-all{
+		margin-right: 25px;
+	}
+	.input_button_style
+	{
+		margin: 0 auto;
+		text-align: center;
+		overflow: hidden;
+		width: 90px;
+		height: 20px;
+		border: none;
+		background-color: #0073AA;
+		border-radius: 5px;
+		padding: 3px 0;
+	}
+	.input_font_style
+	{
+		color:#fff;
+		font-size:14px;
+	}
+	.input_input_style
+	{
+		margin-top:-50px;
+		margin-left:-410px;
+		-moz-opacity:0;
+		filter:alpha(opacity=0);
+		opacity:0;
+		font-size:150px;
+		height:100px;
+	}
+	input[type="submit"], .back-btn{
+		background: #0073AA;
+		border: 0;
+		color: #fff;
+		font-size: 14px;
+		padding: 3px 10px;
+		border-radius: 5px;
+		cursor: pointer;
+		outline: none;
+	}
+</style>

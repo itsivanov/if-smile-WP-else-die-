@@ -1,0 +1,28 @@
+<?php
+function my_custom_post_product() {
+   $labels = array(
+       'name'               => _x( 'Книги', 'post type general name' ),
+       'singular_name'      => _x( 'Книга', 'post type singular name' ),
+       'add_new'            => _x( 'Добавить новую', 'book' ),
+       'add_new_item'       => __( 'Добавить новую книгу' ),
+       'edit_item'          => __( 'Редактировать книгу' ),
+       'new_item'           => __( 'Новая книга' ),
+       'all_items'          => __( 'Все книги' ),
+       'view_item'          => __( 'Просмотр книг' ),
+       'search_items'       => __( 'Поиск книг' ),
+       'not_found'          => __( 'Книга не найдена' ),
+       'not_found_in_trash' => __( 'Книга не найдена в Корзине' ),
+       'parent_item_colon'  => '',
+       'menu_name'          => 'Книги'
+   );
+   $args = array(
+       'labels'        => $labels,
+       'description'   => 'Holds our products and product specific data',
+       'public'        => true,
+       'menu_position' => 5,
+       'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+       'has_archive'   => true,
+   );
+   register_post_type( 'product', $args );
+}
+add_action( 'init', 'my_custom_post_product' );
