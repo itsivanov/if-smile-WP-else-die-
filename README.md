@@ -1,5 +1,5 @@
 #if(smile){<br>
-#WP<br>
+#echo 'WP';<br>
 #}else{<br>
-#die<br>
+#die;<br>
 #}
